@@ -1,8 +1,6 @@
 const getDataFromApi = async (topic) => {
     const { Configuration, OpenAIApi } = require("openai");
 
-    console.log(process.env.REACT_APP_OPEN_AI_KEY);
-
     const configuration = new Configuration({
         apiKey: process.env.REACT_APP_OPEN_AI_KEY,
     });
