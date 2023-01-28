@@ -1,9 +1,12 @@
+import NavBan from '../Components/NavBan';
+import Home from '../Pages/Home/Home';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <NavBan />
+      <Home />
     </div>
   );
 }
